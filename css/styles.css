@@ -156,14 +156,14 @@ header {
 }
 
 .link.current::after {
-    position: absolute;
     content: '';
+    position: absolute;
     width: 100%;
-    color: #4D5AE5;
+    background-color: #4D5AE5;
     height: 4px;
     border-radius: 2px;
     left: 0;
-    bottom: -24px;
+    bottom: -100%;
 }
 
 .link.current {
